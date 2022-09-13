@@ -1,0 +1,69 @@
+1. Class should not be private or protected it will provide compiler error. It should be default or public.
+
+2. We can call any method on the constructor by this.methodName.
+
+3. Final keyword helps to create constant variables, prevent method overriding & prevent inheritance.
+
+4. When a variable is declared with final keyword, its value can't be modified, essentially, a constant.
+
+5. A method is a collection of statements that perform some specific task and return result.
+   A method can perform some specific task without returning anything.
+   Methods allow us to reuse the code without retyping the code. In Java, every method must be part of some class.
+   
+6. In general, method declarations has six components :
+
+Modifier-: Defines access type of the method i.e. from where it can be accessed in your application. In Java, there 4 type of the access specifiers.
+
+public: accessible in all class in your application.
+
+protected: accessible within the class in which it is defined and in its subclass(es).
+
+private: accessible only within the class in which it is defined.
+
+default (declared/defined without using any modifier) : accessible within same class and package within which its class is defined.
+
+The return type : The data type of the value returned by the the method or void if does not return a value.
+
+Method Name : the rules for field names apply to method names as well, but the convention is a little different.
+
+Parameter list : Comma separated list of the input parameters are defined, preceded with their data type, within the enclosed parenthesis. If there are no parameters, you must use empty parentheses ().
+
+Exception list : The exceptions you expect by the method can throw, you can specify these exception(s).
+
+Method body : it is enclosed between braces. The code you need to be executed to perform your intended operations.
+
+7. Return
+  public class Vehicle {
+  public int add(int a, int b) {
+		int sum = a + b;
+		return a+50;
+	}
+	public static void main(String[] args) {
+
+		Vehicle obj = new Vehicle();
+
+		int returnValue = obj.add(10, 20);
+		System.out.println(returnValue);
+	}
+	
+	o/p: 60 : it will print only the return value
+ 8. Method overloading is not associated with return types.
+    Overloaded methods may have the same or different return types, but they must differ in parameters.  
+
+9. Two or more methods can have the same name inside the same class if they accept different arguments. 
+   This feature is known as method overloading.
+   Method overloading is achieved by either:
+   i) changing the number of arguments.
+   ii) changing the data type of arguments.
+   It is not method overloading if we only change the return type of methods. 
+   There must be differences in the number of parameters.
+
+10. A constructor in Java is similar to a method that is invoked when an object of the class is created.
+    Unlike Java methods, a constructor has the same name as that of the class and does not have any return type.
+
+11. When we use same variable in class and local , then we use this keyword to identify it. 
+
+12. Dividing a complex problem into smaller chunks makes your program easy to understand and reusable.[Method]   
+
+   
+    

@@ -1,0 +1,12 @@
+1. Exception will terminate the program.
+2. Checked exception and Unchecked exception (Error).
+3. Checked Exception: IOException, SQLException.
+4. Unchecked Exception: ArithimeticException, NullPointerException, ArrayIndexOutOfBoundryException.
+5. try: We pass Exception code here.
+6. catch: Here we handle the exception.
+7. Finally: To execute necessary code of the program. It is execute whether an exception i handled not.
+8. throw: To throw an exception. User Defined exceptions.
+9. throws: to declare the exception. It terminated the program. JVM Handle the exceptions.
+           It helps to reduce try..catch block multiple times.
+10.Throwable: It handles both error and exceptions.
+11. Try catch should be recommended.

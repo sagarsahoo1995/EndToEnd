@@ -1,0 +1,6 @@
+1. Child class contains all the properties of Parent class.
+2. If both parent and child class have same method name and same number of argument is called method override.
+   The child class method should call 1st.
+3. Parent class can not access the child class properties.
+
+4. Call the parent constructor on child constructor by the "super()" keyword on the child constructor.

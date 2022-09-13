@@ -1,0 +1,82 @@
+1. Can we call main method in another method ?
+Ans:  Yes, We can. But after run it will go infinity loop and 
+
+2. public static void main(String[] args)
+
+public: So that JVM can execute the method from anywhere.
+
+static: Main method is to be called without object. The modifiers public and static can be written in either order.
+
+void: The main method doesn't return anything.
+
+main(): Name configured in the JVM.
+
+String args[] - arguments to the main() method, which should an array of type string.
+          
+          
+3. Heap Memory: Objects  are stored.
+
+4. Stack Memory: Methods and Variables are store. [RAM of Computer]      
+
+5. JVM does not create object of main method.
+
+6. We can not create of Abstract Class. 
+
+7. Compiler in Java convert Human written code to byte code.
+
+8. In programming languages, identifiers are used for identification purposes. 
+   In Java, an identifier can be a class name, method name, variable name, or label.
+   
+9. Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double.
+
+10. Non-Primitive Data Type or Object Data type: such as String, Array, etc.
+
+11. enum in java ?
+
+12. If we call a static method by the help of object but it take more space unnecessary. Which is not recommended.
+
+13. Variables:
+   i) Local variables: A variable defined within a block or method or constructor is called a local variable
+   ii) Instance variables:Are non-static variables and are declared in a class outside any method.[Call by help of method.]
+   iii) Static variables: Are also known as Class variables.[Call directly]
+   
+14. A final variable in Java can be assigned a value only once.
+
+15. Scanner Class: 
+   Scanner sc = new Scanner(System.in);
+   String name = sc.nextLine();
+   char gender = sc.next().charAt(0); [Character input]
+   int age = sc.nextInt();
+   long mobileNo = sc.nextLong();
+   double cgpa = sc.nextDouble();
+   
+16. Abstract : It is a non-access modifier applicable for classes and methods.It is used to achieve abstraction. For more, refer abstract keyword in java
+    enum : It is used to define enum in Java
+    instanceof : It is used to know whether the object is an instance of the specified type (class or subclass or interface).
+    private : It is an access modifier.Anything declared private cannot be seen outside of its class.
+    protected : If you want to allow an element to be seen outside your current package, but only to classes that subclass your class directly, then declare that element protected.
+    public : Anything declared public can be accessed from anywhere.
+
+ For more on Access Modifiers, refer Access Modifiers in Java
+   static :It is used to create a member(block,method,variable,nested classe) that can be used by itself,
+           without reference to a specific instance. For more, refer static keyword in java
+   strictfp : It is used for restricting floating-point calculations and ensuring same result on every platform while performing operations in the floating-point variable.For more refer strictfp keyword in java
+   synchronized : Applicable for blocks,methods.It is used to get synchronization in java. For more, refer Synchronized in Java
+   transient : transient is a variables modifier used in serialization. At the time of serialization, if we don’t want to save value of a particular variable in a file, then we use transient keyword.For more refer transient keyword in Java
+   volatile : The volatile modifier tells the compiler that the variable modified by volatile can be changed unexpectedly by other parts of your program. For more, refer volatile keyword in java
+ 
+17. if use double in division the result must come with decimal.
+
+18. Can not run a program if main method is missing.
+
+
+
+
+
+
+
+
+
+
+
+

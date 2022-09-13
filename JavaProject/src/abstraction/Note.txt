@@ -1,0 +1,15 @@
+1. A class which is declared with the abstract keyword is known as an abstract class in Java.
+   It can have abstract and non-abstract methods (method with the body).
+2. Abstraction is a process of hiding the implementation details and showing only functionality to the user.
+3. An interface is declared by using the interface keyword.
+   It provides total abstraction; means all the methods in an interface are declared with the empty body,
+   and all the fields are public, static and final by default.
+   A class that implements an interface must implement all the methods declared in the interface.   
+   
+   
+We use the abstract keyword to create abstract classes and methods.
+An abstract method doesn't have any implementation (method body).
+A class containing abstract methods should also be abstract.
+We cannot create objects of an abstract class.
+To implement features of an abstract class, we inherit subclasses from it and create objects of the subclass.
+A subclass must override all abstract methods of an abstract class. However, if the subclass is declared abstract, it's not mandatory to override abstract methods.
