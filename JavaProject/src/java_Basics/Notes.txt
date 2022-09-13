@@ -68,6 +68,7 @@ String args[] - arguments to the main() method, which should an array of type st
 17. if use double in division the result must come with decimal.
 
 18. Can not run a program if main method is missing.
+19. With the help of TestNG we can also run the program.
 
 
 
