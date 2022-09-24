@@ -69,6 +69,7 @@ String args[] - arguments to the main() method, which should an array of type st
 
 18. Can not run a program if main method is missing.
 19. With the help of TestNG we can also run the program.
+20. Non static method call by method creation
 
 
 
