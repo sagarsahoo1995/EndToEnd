@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.WebAutomation"/>
 			<item value="BDD"/>
 			<item value="com.OranageHRMBDD"/>
 			<item value="com.OrangeHRM"/>
@@ -51,6 +52,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="com.WebAutomation"/>
 			<item value="BDD"/>
 			<item value="com.OranageHRMBDD"/>
 			<item value="com.OrangeHRM"/>
